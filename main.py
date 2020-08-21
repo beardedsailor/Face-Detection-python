@@ -13,4 +13,5 @@ for face in faces:
 
     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 0), 2)
 
+
 plt.imshow(img)
